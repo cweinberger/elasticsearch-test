@@ -22,8 +22,19 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     let sqlite = try SQLiteDatabase(storage: .memory)
 
     /// Register the configured SQLite database to the database config.
+    var esConfig = ElasticsearchClientConfig()
+
+    esConfig.hostname = "localhost"
+    esConfig.port = 9200
+    esConfig.useSSL = false
+    esConfig.username = ""
+    esConfig.password = ""
+
+    let elasticSearch = try ElasticsearchDatabase(config: esConfig)
+
     var databases = DatabasesConfig()
     databases.add(database: sqlite, as: .sqlite)
+    databases.add(database: elasticSearch, as: .elasticsearch)
     services.register(databases)
 
     /// Configure migrations
