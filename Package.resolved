@@ -182,6 +182,15 @@
         }
       },
       {
+        "package": "Elasticsearch",
+        "repositoryURL": "https://github.com/ryangrimm/VaporElasticsearch.git",
+        "state": {
+          "branch": "feature/remove-whitespaces-in-folders",
+          "revision": "a1b0ee8261207133a3a34ef180b2406383552df8",
+          "version": null
+        }
+      },
+      {
         "package": "WebSocket",
         "repositoryURL": "https://github.com/vapor/websocket.git",
         "state": {
