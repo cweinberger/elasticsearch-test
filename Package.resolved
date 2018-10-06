@@ -2,30 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "AdminPanel",
-        "repositoryURL": "https://github.com/nodes-vapor/admin-panel.git",
-        "state": {
-          "branch": null,
-          "revision": "be6b9ef63563e43eaabd200c196201a284811891",
-          "version": "2.0.0-beta.12"
-        }
-      },
-      {
         "package": "Auth",
         "repositoryURL": "https://github.com/vapor/auth.git",
         "state": {
           "branch": null,
           "revision": "90868627c7587ea207c0b6d4054265e68f6a33ef",
           "version": "2.0.1"
-        }
-      },
-      {
-        "package": "Bootstrap",
-        "repositoryURL": "https://github.com/nodes-vapor/bootstrap.git",
-        "state": {
-          "branch": null,
-          "revision": "6697e3a1716a0ae0f1193044cf4fe260925e81b2",
-          "version": "2.0.2"
         }
       },
       {
@@ -62,15 +44,6 @@
           "branch": null,
           "revision": "3a17dbbe9be5f8c37703e4b7982c1332ad6b00c4",
           "version": "1.3.1"
-        }
-      },
-      {
-        "package": "Flash",
-        "repositoryURL": "https://github.com/nodes-vapor/flash.git",
-        "state": {
-          "branch": null,
-          "revision": "5e190d0243cd2b4324b91d45cf6a894b2131b43b",
-          "version": "3.0.0"
         }
       },
       {
@@ -155,39 +128,12 @@
         }
       },
       {
-        "package": "NodesSSO",
-        "repositoryURL": "https://github.com/nodes-vapor/nodes-sso.git",
-        "state": {
-          "branch": null,
-          "revision": "ac0178a5e67f5a50ae8209425e6f56d7258c3577",
-          "version": "1.0.0-beta.2"
-        }
-      },
-      {
-        "package": "Paginator",
-        "repositoryURL": "https://github.com/nodes-vapor/paginator.git",
-        "state": {
-          "branch": "vapor-3",
-          "revision": "ab04f7efa8036372f6223c6df454e315425c1220",
-          "version": null
-        }
-      },
-      {
         "package": "Redis",
         "repositoryURL": "https://github.com/vapor/redis.git",
         "state": {
           "branch": null,
           "revision": "2fb20632db3ad86e2b3596cd34605f694a92c177",
           "version": "3.0.2"
-        }
-      },
-      {
-        "package": "Reset",
-        "repositoryURL": "https://github.com/nodes-vapor/reset.git",
-        "state": {
-          "branch": null,
-          "revision": "5ea79dbc95c702b8c00bb7cfd3d8bdaa696e89e7",
-          "version": "1.0.0-beta.3"
         }
       },
       {
@@ -215,15 +161,6 @@
           "branch": null,
           "revision": "a35cf1dced4ddd32bb2dc8b6e765aea7bcf8d6e0",
           "version": "2.1.0"
-        }
-      },
-      {
-        "package": "Submissions",
-        "repositoryURL": "https://github.com/nodes-vapor/submissions.git",
-        "state": {
-          "branch": null,
-          "revision": "990f2e34c39ee6b64e29c0af673e87cfb59aae7b",
-          "version": "1.0.0-beta.8"
         }
       },
       {
